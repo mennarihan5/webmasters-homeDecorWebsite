@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Decor Website</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <link href="dist/output.css" rel="stylesheet">
+    <link href="./output.css" rel="stylesheet">
 </head>
-<body>
-    <header class="container py-12 m-auto flex justify-between items-center font-semibold">
+<body class="font-inter">
+    </div>
+    <!-- HEADER -->
+    <header class="container py-8 p-5 m-auto flex justify-between items-center font-semibold">
         <div class="w-36 md:w-44 cursor-pointer">
             <img class="w-full" src="./images/Logo.svg" alt="">
         </div>
@@ -21,39 +24,203 @@
             </ul>
         </nav>
         <div class="">
-            <button class="text-sm md:text-xl p-2 text-white bg-black w-32 md:w-44 md:h-[60px] cursor-pointer">Sign Up</button>
+            <button class="text-lg md:text-xl font-normal p-3 md:p-2 text-white bg-black w-32 md:w-44 md:h-[60px] cursor-pointer">Sign Up</button>
         </div>
     </header>    
-    <main class="container m-auto">
-       <div class="flex">
-            <div>
-                <h1 class="text-9xl font-medium">Interior Design</h1>
-                <p class="text-base">Step into a world where the art of Interior Design is meticulously crafted to bring together timeless elegance and cutting-edge 
+    <main class="container m-auto relative p-5">
+        <!-- HERO -->
+       <section class="flex flex-wrap md:flex-nowrap justify-between md:h-[35rem] lg:h-[39rem]">
+            <div class="w:full md:w-3/4 text-center md:text-left">
+                <h1 class="text-4xl font-semibold xl:font-medium  md:text-4xl xl:text-9xl pb-10 text-lightBlack">Interior Design</h1>
+                <p class="m-auto md:m-0 text-2xl text-mediumGrey lg:w-4/6 xl:w-5/6 pb-7 md:pb-6">Step into a world where the art of Interior Design is meticulously crafted to bring together timeless elegance and cutting-edge 
                     modern Innovation, Allowing you to transform your living spaces into the epitome of luxury and sophistication</p>
-                <button class="text-sm md:text-xl p-2 text-white bg-black w-32 md:w-44 md:h-[60px] cursor-pointer">Start Project</button>    
-                <div class="flex">
+                <button class="text-lg md:text-xl p-3 md:p-2 text-white bg-black w-32 md:w-44 md:h-[60px] cursor-pointer">Start Project</button>    
+                <div class="flex gap-6 xl:gap-0 m-auto md:m-0 justify-between w-3/4 py-8 md:pt-8  text-mediumGrey">
                     <div>
-                        <p>400+</p>
-                        <p>Project Complete</p>
+                        <p class="text-xl md:text-2xl xl:text-7xl">400+</p>
+                        <p class="text-[1.37rem] pt-1">Project Complete</p>
                     </div>
                     <div>
-                        <p>600+</p>
-                        <p>Satisfied Clients</p>
+                        <p class="text-xl md:text-2xl xl:text-7xl">600+</p>
+                        <p class="text-[1.37rem] pt-1">Satisfied Clients</p>
                     </div>
                     <div>
-                        <p>100+</p>
-                        <p>Unique Styles</p>
+                        <p class="text-xl md:text-2xl xl:text-7xl">100+</p>
+                        <p class="text-[1.37rem] pt-1">Unique Styles</p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative 1/6 h-full justify-items-end">
+                <div class="w-full flex justify-center md:pt-5 lg:pt-0 md:justify-end mb-5">
+                    <img class="md:w-full lg:w-10/12" src="./images/Image 1.svg" alt="">
+                </div>
+                <div class="w-full m-auto md:absolute md:right-16 lg:top-[21rem] lg:-right-14 lg:w-[40rem]">
+                    <div class="w-40 h-40 hidden lg:block border-2 border-black rounded lg:absolute lg:right-[26.2rem] lg:bottom-36 -z-10"></div>
+                    <img class="w-full lg:w-[38rem] lg:h-[18rem]" src="./images/Image 2.svg" alt="">
+                </div>
+                <div class="bg-lightBlack hidden md:block md:p-10 absolute right-0 bottom-0 rounded-sm cursor-pointer">
+                    <i class="fa-solid fa-arrow-down-long text-white text-xl lg:text-3xl"></i>
+                </div>
+            </div> 
+        </section>
+        <!-- SERVICES -->
+        <section>
+            <h3>Our Services</h3>
+            <div>
+                <div>
+                    <img src="./images/Lighting design icon.svg" alt="Lighting Design Icon">
+                    <h4>Lighting Design</h4>
+                    <p>Achieve the perfect balance of ambient, task, and accent lighting for a functional atmosphere</p>
+                </div>
+                <div>
+                    <img src="./images/Interior design icon.svg" alt="Interior design Icon">
+                    <h4>Interior Design</h4>
+                    <p>From concept to completion, we oversee every detail to bring your vision to life efficiently</p>
+                </div>
+                <div>
+                    <img src="./images/Outdoor design icon.svg" alt="Outdoor Design Icon">
+                    <h4>Outdoor Design</h4>
+                    <p>Celebrate the changing seasons with our seasonal outdoor decor services</p>
+                </div>
+            </div>
+        </section>
+        <!-- DESIGN YOUR DREAM -->
+        <section>
+            <div>
+                <img src="./images/Mask group.svg" alt="Home decor">
+            </div>
+            <div>
+                <div>
+                    <h3>Designing Your Dream With Brilliance</h3>
+                    <p>Elevate your spaces with bespoke interior designs that reflect your unique style and aspirations, crafted with precision and brilliance for an unforgettable living experience</p>
+                </div>
+                <div>
+                    <div>
+                        <h5>Living Room Interior Design</h5>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div>
+                        <h5>Commercial Office Room Interior Design</h5>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+                <button>Learn More</button>
+            </div>
+        </section>
+        <!-- DESIGN IN 3 STEPS-->
+         <section>
+            <div>
+                <h3>Designing Your Dream in Three Simple Steps</h3>
+                <div>
+                    <div>
+                        <img src="./images/Group 25.svg" alt="Icon">
+                        <h5>Start Project</h5>
+                        <p>Embark on your design adventure by initiating your project. Share your vision and set the stage for a bespoke design experience</p>
+                    </div>
+                    <div>
+                        <img src="./images/Group 26.svg" alt="Icon">
+                        <h5>Craft</h5>
+                        <p>Collaborate closely to achieve design excellence refining your vision and crafting brilliance into every aspect of your space</p>
+                    </div>
+                    <div>
+                        <img src="./images/Group 27.svg" alt="Icon">
+                        <h5>Execute</h5>
+                        <p>Witness your vision becoming a reality as we execute the design plan with precision. Celebrate the joy of your newly transformed space</p>
                     </div>
                 </div>
             </div>
             <div>
-                <img src="./images/Image 1.svg" alt="">
-                <img src="./images/Image 2.svg" alt="">
-                <div></div>
-                <i class="fa-solid fa-arrow-down-long"></i>
+                <img src="./images/Mask group (1).svg" alt="Living Room Decor">
             </div>
-       </div>
+         </section>
+        <!-- REVIEWS -->
+         <section>
+            <div>
+                <div>
+                    <img src="./images/Mask group (2).svg" alt="Home decor">
+                </div>
+                <div>
+                    <i class="fa-solid fa-arrow-left-long"></i>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+            </div>
+            <div>
+                <h3>What Our Customers Say About Us</h3>
+                <div>
+                    <div class="bg-black">
+                        <img src="./images/“ (1).svg" alt="">
+                        <p>Working with your design team was an absolute pleasure. The attention to detail and creativity exceeded my expectations.  Thank you for making my home beautiful!</p>
+                        <div>
+                            <img src="./images/User 1.svg" alt="">
+                            <h6>Sophie Carter</h6>
+                            <p>New York, USA</p>
+                        </div>
+                    </div>
+                    <div class="bg-black">
+                        <img src="./images/“ (1).svg" alt="">
+                        <p>Exceptional service! From the initial consultation to the final reveal, your team demonstrated professionalism and a keen eye for design. Highly recommend!</p>
+                        <div>
+                            <img src="./images/User 1.svg" alt="">
+                            <h6>James Bennett</h6>
+                            <p>Toronto, Canada</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+        <!-- SUBSCRIBE -->
+         <section>
+            <h3>Subscribe to Our Newsletter for Design Insights</h3>
+            <p>Be the first to discover trends, inspirations, and special offers as we bring the world of design directly to your inbox</p>
+            <div>
+                <i class="fa-regular fa-envelope"></i>
+                <input type="text" placeholder="Enter your email address">
+                <button>Subscribe</button>
+            </div>
+         </section>
     </main>
-    <footer></footer>
+    <!-- FOOTER -->
+    <footer>
+        <div>
+            <div>
+                <img src="./images/Logo.svg" alt="">
+            </div>
+            <p>VivaDecor your premier destination for luxury and modern interior design</p>
+            <div>
+                <img src="./images/Facebook.svg" alt="Facebook icon">
+                <img src="./images/X.svg" alt="X icon">
+                <img src="./images/Instagram.svg" alt="Instagram icon">
+                <img src="./images/Linkdin.svg" alt="Linkedin icon">
+            </div>
+        </div>
+        <div>
+            <div>
+                <h6>Our Services</h6>
+                <ul>
+                    <li>Interior design</li>
+                    <li>Outdoor design</li>
+                    <li>Lightning design</li>
+                    <li>Office design</li>
+                </ul>
+            </div>
+            <div>
+                <h6>Our Services</h6>
+                <ul>
+                    <li>Reviews</li>
+                    <li>Careers</li>
+                    <li>Pricing</li>
+                    <li>Press inquires</li>
+                </ul>
+            </div>
+            <div>
+                <h6>Our Services</h6>
+                <ul>
+                    <li>info@vivadecor.com</li>
+                    <li>Design Avenue Cityville,<br />
+                        CA 90210 United States</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

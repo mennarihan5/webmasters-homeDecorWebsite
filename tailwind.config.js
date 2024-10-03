@@ -1,12 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}", "./*.html"],
+  content: ["./**/*.{html,js}"],
   theme: {
     extend: {
       colors: {
         mediumGrey: "#545454",
         lightBlack: "#1F1F1F",
       },
+      fontFamily: {
+        inter: ['Inter', 'sans-serif'] 
+      }
     },
   },
   plugins: [],
